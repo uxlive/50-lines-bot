@@ -50,7 +50,7 @@ composer.on('photo', async (ctx) => {
 
   for (let y = 0; y < 50; ++y) {
     resultCtx.beginPath()
-    resultCtx.lineWidth = 2
+    resultCtx.lineWidth = 1
     resultCtx.lineJoin = 'round'
 
     let l = 0
